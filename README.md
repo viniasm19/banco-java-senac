@@ -20,13 +20,16 @@ Praticar conceitos de POO — como encapsulamento, construtores e relacionamento
 
 ## 📁 Estrutura do projeto
 ```
-banco-java/
-└── src/
-    └── br/senac/sp/
-        ├── UsaConta.java       # Classe principal, com o método main
-        └── banco/
-            ├── Cliente.java    # Representa o cliente (nome, cpf)
-            └── Conta.java      # Representa a conta (saldo, operações)
+src/
+ └── br/
+      └── senac/
+           └── sp/
+                └── banco/
+                     ├── modelos/
+                     │    ├── Cliente.java
+                     │    └── Conta.java
+                     └── principal/
+                          └── UsaConta.java
 ```
 > A estrutura de pastas segue o nome dos packages: `br.senac.sp` vira `br/senac/sp`, e `br.senac.sp.banco` vira `br/senac/sp/banco`.
 
