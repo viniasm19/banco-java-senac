@@ -38,11 +38,11 @@ src/
 
 1. Clone o repositório:
 ```
-git clone https://github.com/viniasm19/banco-java.git
+git clone https://github.com/viniasm19/banco-java-senac.git
 ```
 2. Acesse a pasta do projeto:
 ```
-cd banco-java
+cd banco-java-senac
 ```
 3. Compile os arquivos (a partir da raiz do projeto, indicando a pasta src):
 ```
